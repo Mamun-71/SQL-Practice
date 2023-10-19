@@ -1,22 +1,25 @@
+-- ****--
 create database college;
--- create database if not exists college;
+ create database if not exists college;
 
--- drop database if exists company;
+ drop database if exists company;
 
--- use college;
+ use college;
 
--- create table student(
---   id int primary key,
---   name varchar(50),
---   age int not null
--- );
+ create table student(
+   id int primary key,
+   name varchar(50),
+   age int not null
+ );
 
--- insert into student values(1,"Mamun",26);
--- insert into student values(2,"Samin",25);
+ insert into student values(1,"Mamun",26);
+ insert into student values(2,"Samin",25);
 
--- select * from student;
+ select * from student;
 
--- show databases;
+ show databases;
+
+-- ****--
 
 create table student
 (
@@ -65,6 +68,10 @@ insert into employee values(203,"rasel",35000);
 
 
 select * from employee;
+
+--****--
+
+
 
  
 
